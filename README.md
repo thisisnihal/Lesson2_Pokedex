@@ -88,8 +88,8 @@ public class Pokemon {
     }
 }
 ```  
-* [ ] Step 5: To explain
 We only used getters here cause we need just a read-only object  
+* [ ] Step 5: To explain later...  
 Recycler View has a class attached to it called an [`Adapter`](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView.Adapter).  
 Adapter defines what data is going to be displayed in a recycler view. 
 
