@@ -1,7 +1,7 @@
 ### This is Lesson 2 of CS50 Android Track
 you can take this course for free - https://cs50.harvard.edu/x/2020/tracks/mobile/android/  
 
-In this lesson we learnt about recycler views  
+In this lesson we learnt about the recycler views  
 
 * [x] Step 1: Add dependency for recycler view in app level gradle file  `implementation "androidx.recyclerview:recyclerview:1.2.1"` see below in line 40.
 ```Groovy
@@ -168,7 +168,7 @@ Now add this code. in `MainActivity.java`
 ```
 Now Try to run the app.
 Lets create another activity called `PokemonActivity.java` and its corresponding layout file `activity_pokemon.xml`  
-This is how our `` should look like:  
+This is how our `PokemonActivity.java` should look like:  
 ```java
 public class PokemonActivity extends AppCompatActivity {
 
@@ -193,7 +193,7 @@ public class PokemonActivity extends AppCompatActivity {
     }
 }
 ``` 
-and our `` file  
+and our `activity_pokemon.xml` file  
 ```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -226,7 +226,7 @@ Make sure to add this line in `AndroidManifest.xml`:
         android:exported="false" />
 ```
 
-***Note: I am still Learning so what I explained above take it as a pinch of salt. There is gaurantee/warranty of information given above : )***
+***Note: I am still Learning so what I explained above take it as a pinch of salt. There is NO GAURANTEE & WARRANTY of the information given above : )***
 
 * [ ] To explain from Step 5
 * [ ] Add apk file 
